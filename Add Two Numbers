@@ -1,0 +1,17 @@
+// bits/stdc++.h works in linux. 
+// It loads most of the libraries of C++ required.
+#include <bits/stdc++.h> 
+
+using namespace std;
+
+int main() {
+	// Read the number of test cases.
+	int T,i,sum,a,b;
+	scanf("%d", &T);
+	for(i=0;i<T;i++){
+	    cin>>a>>b;
+	    sum=a+b;
+	    cout<<sum<<endl;
+	}
+	return 0;
+}
