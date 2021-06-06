@@ -1,0 +1,11 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main(){
+    int n;
+    float tot;
+    cin>>n>>tot;
+    if(n%5==0 && n<=tot-0.5) tot=tot-n- 0.50;
+    cout<<fixed<<setprecision(2)<<tot;
+    return 0;
+}
